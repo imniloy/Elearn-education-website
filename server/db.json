@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "email": "admin.elearn@gmail.com",
+      "password": "$2a$10$WWm.yu0ajGhQlVdLyHhfTOzQLQ2pveedUnZ7c5LaNfmUPFdQrmnOe",
+      "role": "admin",
+      "name": "Admin",
+      "id": 1
+    },
+    {
+      "email": "ferdous.shohag@gmail.com",
+      "password": "$2a$10$IZ6eXNauYSqMhl38Wc46texV2vjGZz.Zl66j7hrnW6ZDSDcMlPWeu",
+      "role": "student",
+      "name": "Ferdous",
+      "id": 2
+    },
+    {
+      "email": "riyadh.vai@gmail.com",
+      "password": "$2a$10$e4XPY48UpqmAj8teZ2je8.qd5AEk6hWm5PQwDoJsCsE91qlDPJx1G",
+      "role": "student",
+      "name": "Riyadh",
+      "id": 3
+    },
+    {
+      "email": "imniloy8@gmail.com",
+      "password": "$2a$10$WWm.yu0ajGhQlVdLyHhfTOzQLQ2pveedUnZ7c5LaNfmUPFdQrmnOe",
+      "name": "Niloy Kumar Das",
+      "role": "student",
+      "id": 4
+    },
+    {
+      "email": "arpita.saha@gmail.com",
+      "password": "$2a$10$fUvy8wkVEwU2y.yTvogypuZ4waOmGhP8wqYAejmWXZj3VLE0DU5SK",
+      "name": "Arpita Saha",
+      "role": "student",
+      "id": 5
+    },
+    {
+      "email": "kobita@gmail.com",
+      "password": "$2a$10$FIJWWgAFdJSVd4Hfg34ciu5rP31.LEeG1SbLNvvXji.x1RfTAIu8a",
+      "name": "kobita",
+      "role": "student",
+      "id": 6
+    }
+  ],
+  "videos": [
+    {
+      "title": "Stop Learning These Programming Languages (as a beginner)",
+      "description": "\"What programming languages should you learn?\" has been answered many times. \"What programming languages should you NOT learn?\" will be answered in this video.",
+      "duration": "20.10",
+      "url": "https://www.youtube.com/embed/BkzPdgdxWBY",
+      "views": "1000",
+      "createdAt": "2023-05-23T01:59:34.974Z",
+      "id": 1
+    },
+    {
+      "title": "Metaball Animation in React Native (Skia)",
+      "description": "Today we're going to build together from scratch this crazy Metaball animation. \nWe will just use React Native Skia to implement it 👀.",
+      "duration": "14.45",
+      "url": "https://www.youtube.com/embed/HOxZegqnDC4",
+      "views": "1000",
+      "createdAt": "2023-05-23T02:04:08.196Z",
+      "id": 2
+    },
+    {
+      "title": "ChatGPT Tutorial - for all College students & Coders",
+      "description": "ChatGPT Tutorial - for all College students & Coders",
+      "duration": "10.10",
+      "url": "https://www.youtube.com/embed/wLk2xRzhbjk",
+      "views": "1111",
+      "createdAt": "2023-05-23T02:19:35.389Z",
+      "id": 3
+    },
+    {
+      "title": "USE YOUR TIME TO CRUSH YOUR GOALS",
+      "description": "USE YOUR TIME TO CRUSH YOUR GOALS | Top 10 time management tips for Indians | Abhi and Niyu",
+      "duration": "12.10",
+      "url": "https://www.youtube.com/embed/B1BwqZBy4Zs",
+      "views": "300",
+      "createdAt": "2023-05-23T02:21:18.552Z",
+      "id": 4
+    }
+  ],
+  "assignments": [
+    {
+      "title": "Assignment 1",
+      "video_id": 1,
+      "video_title": "Stop Learning These Programming Languages (as a beginner)",
+      "totalMark": 100,
+      "id": 1
+    },
+    {
+      "title": "Assignment 2",
+      "video_id": 2,
+      "video_title": "Metaball Animation in React Native (Skia)",
+      "totalMark": 100,
+      "id": 2
+    },
+    {
+      "title": "Assignment 3",
+      "video_id": 3,
+      "video_title": "ChatGPT Tutorial - for all College students & Coders",
+      "totalMark": 100,
+      "id": 3
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "What is JavaScript?",
+      "video_id": 1,
+      "video_title": "Stop Learning These Programming Languages (as a beginner)",
+      "options": [
+        {
+          "id": 1,
+          "option": "A Fruit Name",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "A Programming language",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "option": "A toy",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "A car",
+          "isCorrect": false
+        }
+      ],
+      "id": 1
+    },
+    {
+      "question": "What is Node js?",
+      "video_id": 1,
+      "video_title": "Stop Learning These Programming Languages (as a beginner)",
+      "options": [
+        {
+          "id": 1,
+          "option": "A Javascript runtime",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "A Framework Based on react js",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "A Fruit Name",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "One item",
+          "isCorrect": false
+        }
+      ],
+      "id": 2
+    },
+    {
+      "question": "What is chatgpt?",
+      "video_id": 3,
+      "video_title": "ChatGPT Tutorial - for all College students & Coders",
+      "options": [
+        {
+          "id": 1,
+          "option": "ai tool",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "A toy",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "A game",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "A Framework Based on react js",
+          "isCorrect": false
+        }
+      ],
+      "id": 3
+    },
+    {
+      "question": "What is react Native?",
+      "video_id": 2,
+      "video_title": "Metaball Animation in React Native (Skia)",
+      "options": [
+        {
+          "id": 1,
+          "option": "A function that is called after a certain time interval 555555",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "A Framework Based on react js",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "option": "A Fruit Name",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "A Toy",
+          "isCorrect": false
+        }
+      ],
+      "id": 4
+    },
+    {
+      "question": "How to focus?",
+      "video_id": 4,
+      "video_title": "USE YOUR TIME TO CRUSH YOUR GOALS",
+      "options": [
+        {
+          "id": 1,
+          "option": "Avoid social media while working",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "Just sleap",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Just chatting with gf",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "Just listen song",
+          "isCorrect": false
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "assignmentMark": [
+    {
+      "student_id": 4,
+      "student_name": "Niloy Kumar Das",
+      "assignment_id": 1,
+      "title": "Stop Learning These Programming Languages (as a beginner)",
+      "createdAt": "2023-05-23T03:21:17.246Z",
+      "totalMark": 100,
+      "mark": 100,
+      "repo_link": "https://assignment-1.com",
+      "status": "published",
+      "id": 1
+    },
+    {
+      "student_id": 4,
+      "student_name": "Niloy Kumar Das",
+      "assignment_id": 3,
+      "title": "ChatGPT Tutorial - for all College students & Coders",
+      "createdAt": "2023-05-23T03:21:41.223Z",
+      "totalMark": 100,
+      "mark": 0,
+      "repo_link": "https://assignment-3.com",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "student_id": 6,
+      "student_name": "kobita",
+      "assignment_id": 2,
+      "title": "Metaball Animation in React Native (Skia)",
+      "createdAt": "2023-05-23T03:25:33.493Z",
+      "totalMark": 100,
+      "mark": 50,
+      "repo_link": "https://assignment-3.com-kobita",
+      "status": "published",
+      "id": 3
+    }
+  ],
+  "quizMark": [
+    {
+      "student_id": 4,
+      "student_name": "Niloy Kumar Das",
+      "video_id": 1,
+      "video_title": "Stop Learning These Programming Languages (as a beginner)",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 1
+    },
+    {
+      "student_id": 6,
+      "student_name": "kobita",
+      "video_id": 1,
+      "video_title": "Stop Learning These Programming Languages (as a beginner)",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 2
+    },
+    {
+      "student_id": 6,
+      "student_name": "kobita",
+      "video_id": 2,
+      "video_title": "Metaball Animation in React Native (Skia)",
+      "totalQuiz": 1,
+      "totalCorrect": 1,
+      "totalWrong": 0,
+      "totalMark": 5,
+      "mark": 5,
+      "id": 3
+    },
+    {
+      "student_id": 6,
+      "student_name": "kobita",
+      "video_id": 3,
+      "video_title": "ChatGPT Tutorial - for all College students & Coders",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 4
+    },
+    {
+      "student_id": 6,
+      "student_name": "kobita",
+      "video_id": 4,
+      "video_title": "USE YOUR TIME TO CRUSH YOUR GOALS",
+      "totalQuiz": 1,
+      "totalCorrect": 1,
+      "totalWrong": 0,
+      "totalMark": 5,
+      "mark": 5,
+      "id": 5
+    }
+  ]
+}

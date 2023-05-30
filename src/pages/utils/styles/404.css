@@ -1,0 +1,23 @@
+.notFoundHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+
+.backBtn {
+  padding: 1rem;
+  background-color: rgb(130, 63, 197);
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.backBtn:hover {
+  background-color: rgb(110, 63, 197);
+}
+
+.btn-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

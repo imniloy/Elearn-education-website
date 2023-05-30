@@ -1,0 +1,17 @@
+{
+  "name": "json-server",
+  "description": "Json server as a api server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0"
+  },
+  "keywords": [],
+  "author": "Niloy kumar das",
+  "license": "ISC"
+}
